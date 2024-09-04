@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.map {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+}
+
+.room {
+    width: 100px;
+    height: 100px;
+    border: 1px solid #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+#schedule {
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid #000;
+}
+
+#schedule ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#schedule li {
+    margin: 5px 0;
+}
+
+#edit-schedule {
+    margin-top: 20px;
+}
+
+#edit-schedule input {
+    margin: 5px;
+}
+
+#edit-schedule button {
+    margin: 5px;
+}
+
+.room.active {
+    background-color: #f0f0f0; /* Example style for active room */
+}
