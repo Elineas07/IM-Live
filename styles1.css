@@ -1,0 +1,572 @@
+header{
+    height: 20%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: rgb(106, 171, 197);
+    align-items: center;
+}
+
+p{
+    margin-left: 2%;
+}
+
+h1{
+    margin-right: 45%;
+}
+
+#box{
+    display: flex;
+    flex-direction: column;
+}
+
+#picture {
+    height: 80%;
+    position: relative;
+    text-align: center;
+}
+
+
+
+body {
+    height: 100%;
+    margin: 0; 
+    padding: 0;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+
+
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+.kart {
+    width: 100%;
+    height: auto;
+    
+}
+.Lilla-base{
+    position: absolute;
+    color: rgb(242, 11, 11);
+    background-color: rgba(191, 8, 197, 0.765);
+    text-align: center;
+    font-size: 16px;
+    top: 57%;
+    left: 46.5%;
+    transform: translate(-50%, -50%);
+    width: 14%;
+    height: 15%;
+    cursor: grab;
+}
+
+.Oransje-base{
+    position: absolute;
+    color: rgb(242, 11, 11);
+    background-color: rgba(255, 179, 1, 0.822);
+    text-align: center;
+    font-size: 16px;
+    top: 60%;
+    left: 62.8%;
+    transform: translate(-50%, -50%);
+    width: 18.3%;
+    height: 21%;
+    cursor: grab;
+}
+
+.esport{
+    position: absolute;
+    color: rgb(242, 11, 11);
+    background-color: rgba(255, 15, 163, 0.765);
+    text-align: center;
+    font-size: 16px;
+    top: 57%;
+    left: 33.5%;
+    transform: translate(-50%, -50%);
+    width: 12%;
+    height: 15%;
+    cursor: grab;
+}
+
+.Blå1{
+    position: absolute;
+    color: rgb(242, 11, 11);
+    background-color: rgba(15, 123, 255, 0.765);
+    text-align: center;
+    font-size: 16px;
+    top: 57%;
+    left: 19.5%;
+    transform: translate(-50%, -50%);
+    width: 15.5%;
+    height: 15.6%;
+    cursor: grab;
+}
+
+.Blå2{
+    position: absolute;
+    color: rgb(242, 11, 11);
+    background-color: rgba(15, 123, 255, 0.765);
+    text-align: center;
+    font-size: 16px;
+    top: 69%;
+    left: 20.3%;
+    transform: translate(-50%, -50%);
+    width: 28%;
+    height: 9.3%;
+    cursor: grab;
+}
+
+.Grønn1{
+    position: absolute;
+    color: rgb(242, 11, 11);
+    background-color: rgba(15, 255, 59, 0.765);
+    text-align: center;
+    font-size: 16px;
+    top: 60%;
+    left: 80.7%;
+    transform: translate(-50%, -50%);
+    width: 17.5%;
+    height: 21.3%;
+    cursor: grab;
+}
+
+.Grønn2{
+    position: absolute;
+    color: rgb(242, 11, 11);
+    background-color: rgba(15, 255, 43, 0.765);
+    text-align: center;
+    font-size: 16px;
+    top: 56%;
+    left: 92.2%;
+    transform: translate(-50%, -50%);
+    width: 5.6%;
+    height: 12.8%;
+    cursor: grab;
+}
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+.kart {
+    width: 100%;
+    height: auto;
+    
+}
+
+.Lilla-base{
+    position: absolute;
+    color: rgb(242, 11, 11);
+    background-color: rgba(191, 8, 197, 0.765);
+    text-align: center;
+    font-size: 16px;
+    top: 57%;
+    left: 46.5%;
+    transform: translate(-50%, -50%);
+    width: 14%;
+    height: 15%;
+    cursor: grab;
+}
+
+.Oransje-base{
+    position: absolute;
+    color: rgb(242, 11, 11);
+    background-color: rgba(255, 179, 1, 0.822);
+    text-align: center;
+    font-size: 16px;
+    top: 60%;
+    left: 62.8%;
+    transform: translate(-50%, -50%);
+    width: 18.3%;
+    height: 21%;
+    cursor: grab;
+}
+
+.esport{
+    position: absolute;
+    color: rgb(242, 11, 11);
+    background-color: rgba(255, 15, 163, 0.765);
+    text-align: center;
+    font-size: 16px;
+    top: 57%;
+    left: 33.5%;
+    transform: translate(-50%, -50%);
+    width: 12%;
+    height: 15%;
+    cursor: grab;
+}
+
+.Blå1{
+    position: absolute;
+    color: rgb(242, 11, 11);
+    background-color: rgba(15, 123, 255, 0.765);
+    text-align: center;
+    font-size: 16px;
+    top: 57%;
+    left: 19.5%;
+    transform: translate(-50%, -50%);
+    width: 15.5%;
+    height: 15.6%;
+    cursor: grab;
+}
+
+.Blå2{
+    position: absolute;
+    color: rgb(242, 11, 11);
+    background-color: rgba(15, 123, 255, 0.765);
+    text-align: center;
+    font-size: 16px;
+    top: 69%;
+    left: 20.3%;
+    transform: translate(-50%, -50%);
+    width: 28%;
+    height: 9.3%;
+    cursor: grab;
+}
+
+.Grønn1{
+    position: absolute;
+    color: rgb(242, 11, 11);
+    background-color: rgba(15, 255, 59, 0.765);
+    text-align: center;
+    font-size: 16px;
+    top: 60%;
+    left: 80.7%;
+    transform: translate(-50%, -50%);
+    width: 17.5%;
+    height: 21.3%;
+    cursor: grab;
+}
+
+.Grønn2{
+    position: absolute;
+    color: rgb(242, 11, 11);
+    background-color: rgba(15, 255, 43, 0.765);
+    text-align: center;
+    font-size: 16px;
+    top: 56%;
+    left: 92.2%;
+    transform: translate(-50%, -50%);
+    width: 5.6%;
+    height: 12.8%;
+    cursor: grab;
+}
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+.kart {
+    width: 100%;
+    height: auto;
+    
+}
+.Lilla-base{
+    position: absolute;
+    color: rgb(242, 11, 11);
+    background-color: rgba(191, 8, 197, 0.765);
+    text-align: center;
+    font-size: 16px;
+    top: 56%;
+    left: 46.5%;
+    transform: translate(-50%, -50%);
+    width: 14%;
+    height: 12.9%;
+    cursor: grab;
+}
+
+.Oransje-base{
+    position: absolute;
+    color: rgb(242, 11, 11);
+    background-color: rgba(255, 179, 1, 0.822);
+    text-align: center;
+    font-size: 16px;
+    top: 58.4%;
+    left: 62.8%;
+    transform: translate(-50%, -50%);
+    width: 18.3%;
+    height: 17.9%;
+    cursor: grab;
+}
+
+.esport{
+    position: absolute;
+    color: rgb(242, 11, 11);
+    background-color: rgba(255, 15, 163, 0.765);
+    text-align: center;
+    font-size: 16px;
+    top: 55.9%;
+    left: 33.5%;
+    transform: translate(-50%, -50%);
+    width: 12%;
+    height: 13%;
+    cursor: grab;
+}
+
+.Blå1{
+    position: absolute;
+    color: rgb(242, 11, 11);
+    background-color: rgba(15, 123, 255, 0.765);
+    text-align: center;
+    font-size: 16px;
+    top: 55.9%;
+    left: 19.5%;
+    transform: translate(-50%, -50%);
+    width: 15.5%;
+    height: 12.5%;
+    cursor: grab;
+}
+
+.Blå2{
+    position: absolute;
+    color: rgb(242, 11, 11);
+    background-color: rgba(15, 123, 255, 0.765);
+    text-align: center;
+    font-size: 16px;
+    top: 66%;
+    left: 20.3%;
+    transform: translate(-50%, -50%);
+    width: 28%;
+    height: 8%;
+    cursor: grab;
+}
+
+.Grønn1{
+    position: absolute;
+    color: rgb(242, 11, 11);
+    background-color: rgba(15, 255, 59, 0.765);
+    text-align: center;
+    font-size: 16px;
+    top: 58.2%;
+    left: 80.7%;
+    transform: translate(-50%, -50%);
+    width: 17.5%;
+    height: 18%;
+    cursor: grab;
+}
+
+.Grønn2{
+    position: absolute;
+    color: rgb(242, 11, 11);
+    background-color: rgba(15, 255, 43, 0.765);
+    text-align: center;
+    font-size: 16px;
+    top: 54.5%;
+    left: 92.2%;
+    transform: translate(-50%, -50%);
+    width: 5.6%;
+    height: 10.8%;
+    cursor: grab;
+}
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+.kart {
+    width: 100%;
+    height: auto;
+    
+}
+.Lilla-base{
+    position: absolute;
+    color: rgb(242, 11, 11);
+    background-color: rgba(191, 8, 197, 0.765);
+    text-align: center;
+    font-size: 16px;
+    top: 57%;
+    left: 46.5%;
+    transform: translate(-50%, -50%);
+    width: 14%;
+    height: 15%;
+    cursor: grab;
+}
+
+.Oransje-base{
+    position: absolute;
+    color: rgb(242, 11, 11);
+    background-color: rgba(255, 179, 1, 0.822);
+    text-align: center;
+    font-size: 16px;
+    top: 60%;
+    left: 62.8%;
+    transform: translate(-50%, -50%);
+    width: 18.3%;
+    height: 21%;
+    cursor: grab;
+}
+
+.esport{
+    position: absolute;
+    color: rgb(242, 11, 11);
+    background-color: rgba(255, 15, 163, 0.765);
+    text-align: center;
+    font-size: 16px;
+    top: 57%;
+    left: 33.5%;
+    transform: translate(-50%, -50%);
+    width: 12%;
+    height: 15%;
+    cursor: grab;
+}
+
+.Blå1{
+    position: absolute;
+    color: rgb(242, 11, 11);
+    background-color: rgba(15, 123, 255, 0.765);
+    text-align: center;
+    font-size: 16px;
+    top: 57%;
+    left: 19.5%;
+    transform: translate(-50%, -50%);
+    width: 15.5%;
+    height: 15.6%;
+    cursor: grab;
+}
+
+.Blå2{
+    position: absolute;
+    color: rgb(242, 11, 11);
+    background-color: rgba(15, 123, 255, 0.765);
+    text-align: center;
+    font-size: 16px;
+    top: 69%;
+    left: 20.3%;
+    transform: translate(-50%, -50%);
+    width: 28%;
+    height: 9.3%;
+    cursor: grab;
+}
+
+.Grønn1{
+    position: absolute;
+    color: rgb(242, 11, 11);
+    background-color: rgba(15, 255, 59, 0.765);
+    text-align: center;
+    font-size: 16px;
+    top: 60%;
+    left: 80.7%;
+    transform: translate(-50%, -50%);
+    width: 17.5%;
+    height: 21.3%;
+    cursor: grab;
+}
+
+.Grønn2{
+    position: absolute;
+    color: rgb(242, 11, 11);
+    background-color: rgba(15, 255, 43, 0.765);
+    text-align: center;
+    font-size: 16px;
+    top: 56%;
+    left: 92.2%;
+    transform: translate(-50%, -50%);
+    width: 5.6%;
+    height: 12.8%;
+    cursor: grab;
+}
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+.kart {
+    width: 100%;
+    height: auto;
+    
+}
+.Lilla-base{
+    position: absolute;
+    color: rgb(242, 11, 11);
+    background-color: rgba(191, 8, 197, 0.765);
+    text-align: center;
+    font-size: 16px;
+    top: 57%;
+    left: 46.5%;
+    transform: translate(-50%, -50%);
+    width: 14%;
+    height: 15%;
+    cursor: grab;
+}
+
+.Oransje-base{
+    position: absolute;
+    color: rgb(242, 11, 11);
+    background-color: rgba(255, 179, 1, 0.822);
+    text-align: center;
+    font-size: 16px;
+    top: 60%;
+    left: 62.8%;
+    transform: translate(-50%, -50%);
+    width: 18.3%;
+    height: 21%;
+    cursor: grab;
+}
+
+.esport{
+    position: absolute;
+    color: rgb(242, 11, 11);
+    background-color: rgba(255, 15, 163, 0.765);
+    text-align: center;
+    font-size: 16px;
+    top: 59%;
+    left: 33.5%;
+    transform: translate(-50%, -50%);
+    width: 12%;
+    height: 15%;
+    cursor: grab;
+}
+
+.Blå1{
+    position: absolute;
+    color: rgb(242, 11, 11);
+    background-color: rgba(15, 123, 255, 0.765);
+    text-align: center;
+    font-size: 16px;
+    top: 59%;
+    left: 19.5%;
+    transform: translate(-50%, -50%);
+    width: 15.5%;
+    height: 15.6%;
+    cursor: grab;
+}
+
+.Blå2{
+    position: absolute;
+    color: rgb(242, 11, 11);
+    background-color: rgba(15, 123, 255, 0.765);
+    text-align: center;
+    font-size: 16px;
+    top: 71.4%;
+    left: 20.3%;
+    transform: translate(-50%, -50%);
+    width: 28%;
+    height: 9.3%;
+    cursor: grab;
+}
+
+.Grønn1{
+    position: absolute;
+    color: rgb(242, 11, 11);
+    background-color: rgba(15, 255, 59, 0.765);
+    text-align: center;
+    font-size: 16px;
+    top: 62%;
+    left: 80.7%;
+    transform: translate(-50%, -50%);
+    width: 17.5%;
+    height: 21.3%;
+    cursor: grab;
+}
+
+.Grønn2{
+    position: absolute;
+    color: rgb(242, 11, 11);
+    background-color: rgba(15, 255, 43, 0.765);
+    text-align: center;
+    font-size: 16px;
+    top: 58%;
+    left: 92.2%;
+    transform: translate(-50%, -50%);
+    width: 5.6%;
+    height: 12.8%;
+    cursor: grab;
+}
+}
