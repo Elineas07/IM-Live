@@ -1,18 +1,26 @@
-<!DOCTYPE html>
-<html lang="no">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bygningskart</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-    <div class="map">
-        <div class="room" id="room1" onclick="showSchedule('room1')">Rom 1</div>
-        <div class="room" id="room2" onclick="showSchedule('room2')">Rom 2</div>
-        <div class="room" id="room3" onclick="showSchedule('room3')">Rom 3</div>
+<!doctype html>
+<html>
+  <head>
+    <title>IM-live</title>
+    <link rel="stylesheet" href="../styles.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  </head>
+  <body>
+    <div name="box">
+      <header>
+        <p>Logg inn</p>
+        <h1 style="font-size: 250%">IM-Live</h1>
+      </header>
+      <div name="picture">
+        <img src="../IM-avdelingen.png" alt="Kart" class="kart" />
+        <div id="Lilla-base" class="room">Lilla-base</div>
+        <div id="Oransje-base" class="room">Oransje-base</div>
+        <div id="esport" class="room">Esport</div>
+        <div id="Blå-base" class="room">Blå-base</div>
+        <div id="Grønn-base" class="room">Grønn-base</div>
+      </div>
+      <div id="schedule"></div>
+      <script src="script.js"></script>
     </div>
-    <div id="schedule"></div>
-    <script src="script.js"></script>
-</body>
+  </body>
 </html>
