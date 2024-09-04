@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bygningskart</title>
+    <title>Rediger Timeplan</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -13,6 +13,14 @@
         <div class="room" id="room3" onclick="showSchedule('room3')">Rom 3</div>
     </div>
     <div id="schedule"></div>
+    <div id="edit-schedule">
+        <h3>Rediger Timeplan</h3>
+        <input type="time" id="time1" placeholder="Starttid">
+        <input type="time" id="time2" placeholder="Sluttid">
+        <input type="text" id="teacher" placeholder="Lærer">
+        <input type="text" id="subject" placeholder="Fag">
+        <button onclick="addSchedule()">Legg til</button>
+    </div>
     <script src="script.js"></script>
 </body>
 </html>
