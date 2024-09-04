@@ -35,6 +35,46 @@ body {
   justify-content: center;
 }
 
+#Lilla-base {
+    position: absolute;
+    color: rgb(242, 11, 11);
+    background-color: rgba(191, 8, 197, 0.765);
+    text-align: center;
+    font-size: 16px;
+}
+
+#Oransje-base {
+    position: absolute;
+    color: rgb(242, 11, 11);
+    background-color: rgba(255, 179, 1, 0.822);
+    text-align: center;
+    font-size: 16px;
+}
+
+#esport {
+    position: absolute;
+    color: rgb(242, 11, 11);
+    background-color: rgba(255, 15, 163, 0.765);
+    text-align: center;
+    font-size: 16px;
+}
+
+#Blå-base {
+    position: absolute;
+    color: rgb(242, 11, 11);
+    background-color: rgba(15, 123, 255, 0.765);
+    text-align: center;
+    font-size: 16px;
+}
+
+#Grønn-base {
+    position: absolute;
+    color: rgb(242, 11, 11);
+    background-color: rgba(15, 255, 59, 0.765);
+    text-align: center;
+    font-size: 16px;
+}
+
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
   .kart {
@@ -42,11 +82,6 @@ body {
     height: auto;
   }
   #Lilla-base {
-    position: absolute;
-    color: rgb(242, 11, 11);
-    background-color: rgba(191, 8, 197, 0.765);
-    text-align: center;
-    font-size: 16px;
     top: 57%;
     left: 46.5%;
     transform: translate(-50%, -50%);
@@ -56,11 +91,6 @@ body {
   }
 
   #Oransje-base {
-    position: absolute;
-    color: rgb(242, 11, 11);
-    background-color: rgba(255, 179, 1, 0.822);
-    text-align: center;
-    font-size: 16px;
     top: 60%;
     left: 62.8%;
     transform: translate(-50%, -50%);
@@ -70,11 +100,6 @@ body {
   }
 
   #esport {
-    position: absolute;
-    color: rgb(242, 11, 11);
-    background-color: rgba(255, 15, 163, 0.765);
-    text-align: center;
-    font-size: 16px;
     top: 57%;
     left: 33.5%;
     transform: translate(-50%, -50%);
@@ -84,12 +109,6 @@ body {
   }
 
   #Blå-base {
-    position: absolute;
-    color: rgb(242, 11, 11);
-    background-color: rgba(15, 123, 255, 0.765);
-    text-align: center;
-    font-size: 16px;
-    top: 57%;
     left: 19.5%;
     transform: translate(-50%, -50%);
     width: 15.5%;
@@ -98,11 +117,6 @@ body {
   }
 
   #Grønn-base {
-    position: absolute;
-    color: rgb(242, 11, 11);
-    background-color: rgba(15, 255, 59, 0.765);
-    text-align: center;
-    font-size: 16px;
     top: 60%;
     left: 80.7%;
     transform: translate(-50%, -50%);
@@ -119,12 +133,7 @@ body {
     height: auto;
   }
   #Lilla-base {
-    position: absolute;
-    color: rgb(242, 11, 11);
-    background-color: rgba(191, 8, 197, 0.765);
-    text-align: center;
-    font-size: 16px;
-    top: 57%;
+    top: 59%;
     left: 46.5%;
     transform: translate(-50%, -50%);
     width: 14%;
@@ -133,12 +142,7 @@ body {
   }
 
   #Oransje-base {
-    position: absolute;
-    color: rgb(242, 11, 11);
-    background-color: rgba(255, 179, 1, 0.822);
-    text-align: center;
-    font-size: 16px;
-    top: 60%;
+    top: 62%;
     left: 62.8%;
     transform: translate(-50%, -50%);
     width: 18.3%;
@@ -147,11 +151,6 @@ body {
   }
 
   #esport {
-    position: absolute;
-    color: rgb(242, 11, 11);
-    background-color: rgba(255, 15, 163, 0.765);
-    text-align: center;
-    font-size: 16px;
     top: 59%;
     left: 33.5%;
     transform: translate(-50%, -50%);
@@ -161,11 +160,6 @@ body {
   }
 
   #Blå-base {
-    position: absolute;
-    color: rgb(242, 11, 11);
-    background-color: rgba(15, 123, 255, 0.765);
-    text-align: center;
-    font-size: 16px;
     top: 59%;
     left: 19.5%;
     transform: translate(-50%, -50%);
@@ -175,11 +169,6 @@ body {
   }
 
   #Grønn-base {
-    position: absolute;
-    color: rgb(242, 11, 11);
-    background-color: rgba(15, 255, 59, 0.765);
-    text-align: center;
-    font-size: 16px;
     top: 62%;
     left: 80.7%;
     transform: translate(-50%, -50%);
